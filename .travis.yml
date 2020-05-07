@@ -5,12 +5,12 @@ before_script:
   - composer install
 script: phpunit tests
 deploy:
-	provider: heroku
-	app: salvadormg
-	on: master
-	skip_cleanup: true
-	api_key:
-	  secure: zEMkD+Hu1bs9t1Y55OegQprZY+BfkhtBrFRdB2K5ICcEUiYEsauMgmr+6zijJdU94KHF
+provider: heroku
+app: salvadormg
+on: master
+skip_cleanup: true
+api_key:
+secure: zEMkD+Hu1bs9t1Y55OegQprZY+BfkhtBrFRdB2K5ICcEUiYEsauMgmr+6zijJdU94KHF
 WOdi+sYxJlfbCoHJKBQPwAmkYOGg9WJHVbsTOm4WjTLKLf3w1TFKJB4TZIu7Ujazhi8oBOuvXJft
 MWUbSzD28JPn4daVYjRw0II8yvxVbSbIOAULMu30MViB4AMGD09tShNe1uDgChxVjAiNL42KKGAH
 ffNWXLFaHGQFnzrGnf9jFmGacRmDKPryHt/KFSgL/5Xt3XMb+ja/zrtrdVy3cPCCnFeeeZdAiP4G
